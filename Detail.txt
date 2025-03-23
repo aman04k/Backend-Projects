@@ -1,0 +1,22 @@
+// Express.js Framework
+
+// Introduction to Express.js
+//Express js ek npm packeage hai 
+//Framework
+// manges everything from receiving requests and givening the responce
+
+
+// setting up a basic express application
+
+
+//Routing 
+
+//mddleware
+//requests and responses handling  
+//error handling
+
+
+1. form Handling and working  with the form 
+2. handle ackend process of form and making sure the data coming from any frontend , templating engines , we still hanldl it in the backend  
+
+Cookies => hum cookies use krte hai koi bhi data ko store krne ke liye on the client side or browser side 
