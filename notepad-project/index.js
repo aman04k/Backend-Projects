@@ -10,6 +10,12 @@ const  fs = require("fs")
  app.set('view engine', 'ejs')
 
 
+  app.get("/", (req, res) => {
+    fs.readdir(`./files`, function (err, files) {
+    res.render("index", {files: files})
+
+    })
+ })
 
  app.get("/files/filename", (req, res) => {
     fs.readFile()
@@ -26,6 +32,8 @@ const  fs = require("fs")
   })
 })
 
+
+
 //  app.get("/profile/:username", (req, res) => {
 //     res.send(`Welcome ${req.params.username}`)
 //  })
@@ -33,3 +41,4 @@ const  fs = require("fs")
  app.listen(3000, () => {
     console.log("Server is running on port 3000")
  })
+ 
